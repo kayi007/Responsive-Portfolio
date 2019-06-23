@@ -1,53 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Contact</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    </head>
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <meta name="viewport" content= "width-device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
-    <body>
+<body>
 
-        <div class="container">
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Kathleen Leung</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-            <header>
-                <div class="top_content">
-                    <div class="logo">Kathleen Leung</div>
-                    <nav>
-                        <a href="index.html">About</a>
-                        <a href="portfolio.html">Portfolio</a>
-                        <a href="contact.html" id="endNav">Contact</a>
-                    </nav>
-                </div>
-            </header>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-            <div class="backgroundIMG">
-                <section>
-                    <div class="bot_content" id="contentBot">
-                        <h1>Contact</h1>
-                        <hr />
-    
-                        <article>
-                            <form>
-                                Name<br>
-                                <input type="text" name="firstname_lastname" placeholder="John Doe"><br>
-                                Email<br>
-                                <input type="email" name="email" placeholder="example@gmail.com"><br>
-                                <div id="msg">Message<br></div>
-                                <textarea name="message" rows="12"></textarea><br>
-                                <!-- is there text limit? -->
-                                <button type="button" onclick="alert('Message Sent!')">Submit</button>
-                            </form>
-                        </article>
-                    </div>
-                </section>
-            </div>
+      <form id="contact-form">
+        Name<br>
+        <input type="text" name="firstname_lastname" placeholder="John Doe"><br>
+        Email<br>
+        <input type="email" name="email" placeholder="example@gmail.com"><br>
+        <div id="msg">Message<br></div>
+        <textarea name="message" rows="12"></textarea><br>
+        <input type="submit">
+      </form>
 
-            <div id="end">
-                    <footer>Copyright &copy;</footer>
-            </div>
-        </div>
+    </section>
 
-    </body>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
+</body>
+
 </html>
